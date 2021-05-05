@@ -3,8 +3,6 @@ package by.bsuir.m0rk4.oop.task.third.entity;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import java.util.Objects;
-
 
 public class Bicycle extends NonMechanicalVehicle {
     private int wheelsCount;
