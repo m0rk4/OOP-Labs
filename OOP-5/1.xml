@@ -1,0 +1,19 @@
+<Vehicles>
+    <vehicles>
+        <vehicles mech-type="bicycle">
+            <maxSpeed>1.0</maxSpeed>
+            <weight>1.0</weight>
+            <brandName>1</brandName>
+            <muscularPower>HUMAN</muscularPower>
+            <wheelsCount>1</wheelsCount>
+        </vehicles>
+        <vehicles mech-type="cart">
+            <maxSpeed>12.0</maxSpeed>
+            <weight>12.0</weight>
+            <brandName>12</brandName>
+            <muscularPower>HUMAN</muscularPower>
+            <peopleCapacity>1</peopleCapacity>
+            <haulersCount>1</haulersCount>
+        </vehicles>
+    </vehicles>
+</Vehicles>

@@ -11,20 +11,23 @@
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="by.bsuir.mark.task.second.controller.Controller">
     <top>
         <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
-            <items>
             <ToggleButton fx:id="lineTButton" mnemonicParsing="false" text="Line">
-               <toggleGroup>
-                  <ToggleGroup fx:id="figuresToggleGroup" />
-               </toggleGroup>
+                <toggleGroup>
+                    <ToggleGroup fx:id="figuresToggleGroup"/>
+                </toggleGroup>
             </ToggleButton>
-            <ToggleButton fx:id="ellipseTButton" layoutX="10.0" layoutY="12.0" mnemonicParsing="false" text="Ellipse" toggleGroup="$figuresToggleGroup" />
-            <ToggleButton fx:id="circleTButton" layoutX="103.0" layoutY="12.0" mnemonicParsing="false" text="Circle" toggleGroup="$figuresToggleGroup" />
-            <ToggleButton fx:id="triangleTButton" layoutX="196.0" layoutY="12.0" mnemonicParsing="false" text="Triangle" toggleGroup="$figuresToggleGroup" />
-            <ToggleButton fx:id="rectangleTButton" mnemonicParsing="false" text="Rectangle" toggleGroup="$figuresToggleGroup" />
-            <ToggleButton fx:id="squareTButton" mnemonicParsing="false" text="Square" toggleGroup="$figuresToggleGroup" />
-                <ColorPicker fx:id="colorPicker" />
-            <Button fx:id="clearButton" mnemonicParsing="false" text="Clear" />
-            </items>
+            <ToggleButton fx:id="ellipseTButton" layoutX="10.0" layoutY="12.0" mnemonicParsing="false" text="Ellipse"
+                          toggleGroup="$figuresToggleGroup"/>
+            <ToggleButton fx:id="circleTButton" layoutX="103.0" layoutY="12.0" mnemonicParsing="false" text="Circle"
+                          toggleGroup="$figuresToggleGroup"/>
+            <ToggleButton fx:id="triangleTButton" layoutX="196.0" layoutY="12.0" mnemonicParsing="false" text="Triangle"
+                          toggleGroup="$figuresToggleGroup"/>
+            <ToggleButton fx:id="rectangleTButton" mnemonicParsing="false" text="Rectangle"
+                          toggleGroup="$figuresToggleGroup"/>
+            <ToggleButton fx:id="squareTButton" mnemonicParsing="false" text="Square"
+                          toggleGroup="$figuresToggleGroup"/>
+            <ColorPicker fx:id="colorPicker"/>
+            <Button fx:id="clearButton" mnemonicParsing="false" text="Clear"/>
         </ToolBar>
     </top>
    <center>

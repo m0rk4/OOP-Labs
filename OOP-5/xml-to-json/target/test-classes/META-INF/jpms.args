@@ -1,0 +1,4 @@
+--patch-module
+xmltojson=_
+--add-reads
+xmltojson=ALL-UNNAMED
